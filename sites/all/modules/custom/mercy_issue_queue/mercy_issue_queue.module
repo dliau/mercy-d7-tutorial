@@ -30,3 +30,10 @@ function mercy_issue_queue_menu() {
 function mercy_issue_queue_test_page() {
   return 'hello';
 }
+
+/**
+ * Implements hook_form_alter().
+ */
+function mercy_issue_queue_alter(&$form, &$form_state, $form_id) {
+
+}
