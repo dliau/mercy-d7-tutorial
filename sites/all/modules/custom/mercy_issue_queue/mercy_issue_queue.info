@@ -1,0 +1,5 @@
+name = Mercy Issue Queue
+description = A custom project within the Mercy Drupal team
+core = 7.x
+package = ~Mercy Modules
+; configure = admin/config/content/example

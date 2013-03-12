@@ -1,0 +1,32 @@
+<?php
+
+/**
+ * @file
+ * Implementation of Mercy Issue Queue
+ */
+
+/**
+ * Implements hook_menu().
+ */
+function mercy_issue_queue_menu() {
+  $items = array();
+
+  $items['test_page'] = array(
+    'title' => 'TEST PAGE',
+    'page callback' => 'mercy_issue_queue_test_page',
+    'access arguments' => array('access content'),
+    'type' => MENU_CALLBACK,
+  );
+
+  return $items;
+}
+
+/**
+ * Menu callback for test_page.
+ *
+ * @return string
+ *   rendered content
+ */
+function mercy_issue_queue_test_page() {
+  return 'hello';
+}
