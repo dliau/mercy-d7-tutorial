@@ -1,3 +1,0 @@
-[submodule "sites/all/modules/custom/mercy_issue_queue"]
-	path = sites/all/modules/custom/mercy_issue_queue
-	url = git@github.com:dliau/mercy-issue-queue.git
